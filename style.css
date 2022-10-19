@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display:ital@1&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav ul{
+    margin: 0px;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    text-decoration: none;
+    color:black;
+}
+
+.nav a:hover{
+    background-color: gray;
+}
+
+.mainnav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255,255,255, .5);
+}
+
+.mainnav li{
+    padding: 0 5%;
+}
+
+
+.mainhead {
+    background-color: blanchedalmond;
+    background-image: url("images/backgroundhead.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.b1{
+    text-align: center;
+    margin: 0px;
+    font-size: 4em;
+    font-family: 'Rock Salt', cursive;
+}
+.b2{
+    font-size: 7em;
+}
+.s1{
+    margin: 1em;
+}
+.s2{
+    padding: 1.5em;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.secheader{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 3.5em;
+
+}
+.aboutimg{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.mainfooter{
+    background-color: lightskyblue;
+    color: azure;
+    padding: .25em 0;
+}
+
+.mainfoot1{
+    display: flex;
+    align-items: center;
+}
+.mainfoot1 ul{
+    flex-grow: 1;
+    text-align: end;
+}
+.footnav li{
+    padding: 0.5em;
+
+}
+.footnav img{
+    width: 30px;
+    height: 30px;
+}
+.footheader{
+    font-size: 2em;
+    padding: 0.5em;
+}
+.cp{
+    text-align: center;
+    color:white;
+    background-color: lightskyblue;
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.67em;
+    cursor: pointer;    
+}
+
+.btnindex1{
+    margin: .5em 15% 2em 15%;
+    border: 2px solid purple;
+    background-color: rgba(255,255,255,.1);
+    font-size: 1.5em;
+    border-radius: 0px;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+
+}
+.btnindex1:hover{
+    background-color: rgb(215, 188, 241);
+}
+.btnplay{
+    display: block;
+    margin: 0 auto;
+    color: rgb(33, 2, 33);
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0px;
+    width: 100px;
+    height: 100px;
+}
+.tours{
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+.lt{
+    border-bottom: none;
+}
+.touritem{
+    display: inline-block;
+    padding-right: .5em;
+}
+.tourdate{
+    color: black;
+    font-weight: bold;
+    width: 11%;
+}
+.tourcity{
+    width: 24%;
+}
+.tourarena{
+    width: 42%;
+}
+.tourbtn{
+    max-width: 19%;
+    color: white;
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 0.3em;
+    font-weight: bold;
+
+}
+.tourbtn:hover{
+    background-color: rgb(12, 90, 138);
+}
